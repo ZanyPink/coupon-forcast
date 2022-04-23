@@ -44,17 +44,17 @@ def main():
 
     @st.cache(allow_output_mutation=True)
     def load_rf():
-        rf_data = pd.read_csv('C:/课程/o2o/result/rf_preds.csv', keep_default_na=False)
+        rf_data = pd.read_csv('https://github.com/ZanyPink/coupon-forcast/blob/main/rf_preds.csv', keep_default_na=False)
         return rf_data
 
     @st.cache(allow_output_mutation=True)
     def load_gbdt():
-        gbdt_data = pd.read_csv('C:/课程/o2o/result/gbdt_preds.csv', keep_default_na=False)
+        gbdt_data = pd.read_csv('https://github.com/ZanyPink/coupon-forcast/blob/main/gbdt_preds.csv', keep_default_na=False)
         return gbdt_data
 
     @st.cache(allow_output_mutation=True)
     def load_xgb():
-        xgb_data = pd.read_csv('C:/课程/o2o/result/xgb_preds.csv', keep_default_na=False)
+        xgb_data = pd.read_csv('https://github.com/ZanyPink/coupon-forcast/blob/main/xgb_preds.csv', keep_default_na=False)
         return xgb_data
 
     @st.cache
