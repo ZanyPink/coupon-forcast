@@ -29,8 +29,8 @@ def main():
 
 
     st.markdown("<h1 style= 'text-align: center; color: black;'>优惠券使用预测</h1>", unsafe_allow_html=True)
-    img = Image.open("C:/课程/o2o/figs/1.png")
-    st.image(img, width=820)
+    #img = Image.open("C:/课程/o2o/figs/1.png")
+    #st.image(img, width=820)
 
     @st.cache(allow_output_mutation=True)
     def load_pre_train():
